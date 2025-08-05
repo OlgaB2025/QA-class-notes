@@ -50,6 +50,12 @@ git remote add origin https://github.com/OlgaB2025/QA-class-notes.git
 git branch -M main
 git push -u origin main
 ```
+Clone project:
+```bash
+git clone https://github.com/OlgaB2025/demo-20250507.git
+```
+
+
 
 ```bash
 # send updates to GitHub
