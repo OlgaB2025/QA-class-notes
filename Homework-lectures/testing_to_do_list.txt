@@ -1,0 +1,23 @@
+/* 
+I opened the link https://todolist.james.am/#/
+Font color is too faded, making the text difficult to read. 
+Instruction "Double-click to edit a toodo" is hardly visible although browser zoom level is 100%. 
+'Toodo' looks to be a grammar/typing mistake meant to be 'todo'.
+For the moment I don't have any todos, an instruction on how to create the first one would be useful.
+"What need's to be done?" in dialog box contains one more grammar mistake "needs" is the correct verbform. 
+Starting to make the first task intuitively - typing in the dialog  box and pressing enter.
+Started adding tasks. The amount of created tasks is being calculating starting from 0. 
+Counter for the 'items' is very confusing. Firstly I thought it's an ammount of tasks left possible to be created.
+Later I understood it's the amount of already created tasks. The counter starts from zero - showing the wrong amount (decreased by 1) of created tasks. 
+Also, the instruction "Double-click to edit a toodo" names the tasks as 'toodo' and a counter names them 'items' - this double naming is confusing.
+Pointing the cross on the right shows a card saying "TODO:REMOVE THIS EVENTUALLY" (contains text formatting mistake - space after : is required) so it calls the todo ir item 'this' which is the third naming. 
+There is no dedicated space for the cross - if the row is fully typed with the text - cross overlaps todo text.
+Being in a card 'All' I have marked few todos as done and accidentally pressed the arrow down in dialog box - this markes all the todos as completed and there is no opportunity to undo this click. 
+Clicking the arrow one more time unmarks all the todos. 
+'Completed' card doesn't reflect how many tasks are completed. 
+When marking all the toddos as completed, the counter says '-1 items left'.
+In DevTools I see this comment:
+<!-- THIS IS A STUPID APP AND I HAVE NO IDEA WHY WE'RE WASTING OUR TIME DOING THIS DEV WORK --> this is unprofessional.
+
+*/
+
